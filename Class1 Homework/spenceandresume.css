@@ -1,0 +1,26 @@
+/*CSS link to resume.html and Spence.html*/
+/*Body for black background, white font and orange border*/
+   body {
+		background-color: black;
+		color:white;
+		border-style:solid;
+		border-color:orange;
+		border-width:5px;
+	}
+	/* Color font for heading 1*/
+	h1 {
+		color:white;
+	}
+	/*Larger font size to heading 2 and hyperlink. The Resume link goes to the Resume.html and the About Me link goes to the Spencehtml. */ 
+	h2 {
+		font-size:18px;
+		color:blue;
+	}
+	/* Heading 3 for subheadings for the Resume - "Relevant Experience," "Bar Admissions," "Language Skills," "Education," and "Professional Affiliations." */
+	h3 {
+		font-size:16px;
+		margin:15px;
+	}
+	.intro {
+		margin:10px;
+	}
