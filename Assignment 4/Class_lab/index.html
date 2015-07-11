@@ -11,47 +11,58 @@
 		<h1>Startup Matchmaker</h1>
 		<nav>
 			<ul>
-				<li><a href="">Find Developers</a></li>
-				<li><a href="">Find Designers</a></li>
-				<li><a href="">How it Works</a></li>
-				<li><a href="">Our Team</a></li>
-				<li><a href="">Blog</a></li>
+
+	<!-- Navigaton links at the top of the page under the main title (h1) on page -->
+
+				<li><a href="" class="blue-steel">Find Developers</a></li>
+				<li><a href="" class="blue-steel">Find Designers</a></li>
+				<li><a href="" class="blue-steel">How it Works</a></li>
+				<li><a href="" class="blue-steel">Our Team</a></li>
+				<li><a href="" class="blue-steel">Blog</a></li>
 			</ul>
 		</nav>
 		<hr></hr>
 
-		<div class="tagline">Because two brains taste are better than one.</div>
+<!--second navigaton header with no hyperlinks. -->
+
+		<section class="tagline">Because two brains taste are better than one.</section>
 	</header>
 
-	<section class="homepic">
-		<img src="/images/coworking.jpg" alt="homepic"/>
-	</section>
+<!-- section with background cover and sidebar box positioned over the right portion of the background cover. -->
 
-	<div class="sidebar">
-		<h2>Meet your Match!<h2>
+	<section class="homepic">
+		<div class="sidebar">
+		<h2>Meet your Match!</h2>
 			<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
-		<h3 class="profilebox">CREATE A PROFILE</h3>
+		<button class="profilebox">CREATE A PROFILE</button>
 	</div>
+	</section>
 	
 <!-- adding three columns to the website - Columns 1 to 3 from left to right -->
-	<article id="column1" class="clearfix">
-		<h2>Create a Profile</h2>
+
+	<div class="container">
+		<div class="column1">
+			<h2>Create a Profile</h2>
 			<p>Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
-			<h3>SIGN UP NOW</h3>
-	</article>
+			<button id="buttonOne">SIGN UP NOW</button>
+		</div>
 
-	<article id="column2" class="clearfix">
-		<h2><Find a Developer></h2>
+		<div class="column2">
+			<h2>Find a Developer</h2>
 			<p>Looking for a fantastic developer to work with on the next big thing? Look no further.</p>
-			<h3>START YOUR SEARCH</h3>
-	</article>
+			<button>START YOUR SEARCH</button>
+		</div>
 
-	<article id="column3" class="clearfix">
-		<h2>Find a Designer</h2>
+		<div class="column3">
+			<h2>Find a Designer</h2>
 			<p>Need someone who can make a product intuitive and appealing? Get ready.</p>
-			<h3>START YOUR SEARCH</h3>
-	</article>
+			<button>START YOUR SEARCH</button>
+		</div>
+	</div>
+
+<!-- Footer at the end of the page. -->
 
 	<footer>&copy;2013 Startup Matchmaker. Made in NY.</footer>
+<script src=”js/main.js”></script>
 </body>
 </html>
