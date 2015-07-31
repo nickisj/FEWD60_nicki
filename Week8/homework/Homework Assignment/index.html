@@ -1,0 +1,39 @@
+<!DOCTYPE htmh>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<title>To Do List</title>
+		<style>
+			#task-form input[name=task]{
+			}
+		</style>
+    	<!--External CSS stylesheet-->
+			<link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    	<header class="top">
+    		<h1>TO DO LIST</h1>
+    		<form method="" action="" id="task-form">
+    			<input id="tasks" name="task" placeholder="Enter task...">
+    			<input type="submit" value="Add Me Please!">
+
+    			<b>Actions</b>
+    				<div id="status"></div>
+    		</form>
+    		<hr>
+    		<div class="Pending Tasks">
+    			<ul id="addTasks"></ul>
+    		</div>
+    		<div class="endTasks">
+    			<button id="clear">Clear Tasks</button>
+    			<button id="completed">Task Completed</button>
+    		</div>
+    		<div id="results">
+    			<p> Total of <span id="total">0</span> tasks.</p>
+    		</div>
+    	</header>
+    </body>
+    <!--External JS/JQUERY sheet-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+   </html>
