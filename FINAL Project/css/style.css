@@ -1,0 +1,199 @@
+
+/**************************************************
+             BASE STYLES for htmls
+**************************************************/
+
+body{
+	margin: 0;
+	padding: 3em;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #FFF;
+	color: #444;
+	max-width: 40em;
+	border-left: 6px solid #DDD;
+}
+
+header nav {
+  margin-top: 15px;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 1.0rem;
+}
+
+header nav ul li a{
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 2.0rem;
+}
+
+h1{
+	text-align: center;
+}
+
+
+/**********************************************
+INDEX.HTML - HOME PAGE 
+***********************************************/
+
+/************ Timed Slideshow *************/
+
+hr{}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { 
+	margin: 0; 
+
+} 
+div#slider { 
+	overflow: hidden; 
+}
+
+div#slider figure img { 
+	width: 20%; float: left; 
+}
+
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+/*********************************************
+            ABOUTUS.HTML
+ **********************************************/
+
+.nicki img {
+	float:left;
+	overflow: hidden;
+   	padding:10px;
+   	margin: 4px;
+   	border:1px solid #021a40;
+}
+
+.nicki{
+	clear:both;
+	padding:3px;
+	margin: 3px;
+}
+
+.timothy img {
+	float: left;
+	overflow:hidden;
+	padding:10px;
+	margin:4px;
+   	border:1px solid #021a40;
+}
+.timothy{
+	clear:both;
+	padding: 3px;
+	margin: 3px;
+}
+
+.nicki p{
+	margin:.5em;
+}
+
+.timothy p{
+	margin:.5em;
+}
+
+.nicki p:first-letter {
+	float: left;
+	font-size: 3em;
+	line-height: 1;
+	color: #909090;
+}
+
+.timothy p:first-letter {
+	float: left;
+	font-size: 3em;
+	line-height: 1;
+	color: #909090;
+	
+}
+
+ footer{
+ 	clear:both;
+ 	margin-top: 3px;
+ 	padding: 3px;
+ }
+/*********************************************
+             BLOG.HTML
+ **********************************************/
+a.website{
+	border: 4px outset;
+	padding: 2px;
+	text-decoration: none;
+	color: black;
+}
+
+a.website:hover{
+	color:#00FF00;
+}
+
+.5burros img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid #021a40;
+}
+.jerk img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid #021a40;
+}
+
+
+/*********************************************
+             Contactus.HTML
+ **********************************************/
+
+.commentbox {
+	margin: 30px;
+	padding: 30px;
+	line-height: 1.5;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.commentbox {
+	background: transparent
+	url('../images/queensbusmap.jpg')
+	center
+	no-repeat;
+	width:100%;
+}
+.commentbox span{
+	font-size:1.5em;
+	font-style: bold;
+	color:#3300FF;
+}
+
+.commentbox span:hover{
+	color:#00FF00;
+	font-size:2.5em;
+}
+
